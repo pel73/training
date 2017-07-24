@@ -1,0 +1,9 @@
+#main{
+    h1{ margin-bottom: 20px }
+    p{ font-size:90% }
+}
+
+
+$main_color: #3cf;
+p{ color: $main_color }
+
