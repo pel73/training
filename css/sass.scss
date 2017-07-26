@@ -7,3 +7,83 @@
 $main_color: #4cf;
 p{ color: $main_color }
 
+
+
+
+#a {
+    color: red;
+    font-size: 1.5em;
+    text-decoration: none;
+ 
+    &:hover {
+        text-decoration: underline;     
+    }
+}
+
+#main{
+     
+    font: {
+        family: Georgia;
+        size: 1.5em;
+        weight: bold;
+    }
+}
+
+
+#main {
+    color: black;
+     
+    &-sidebar { 
+        border: 1px solid; 
+    }
+     
+    body.firefox & {
+        line-height: 1.5em
+    }
+}
+
+
+
+
+
+#main{
+     
+    font: {
+        family: Georgia;
+        size: 1.5em;
+        weight: bold;
+    }
+}
+
+
+
+.box {
+    border: 1px solid #000;
+    background-color: green;        
+}
+ 
+.mybox {
+    @extend .box;
+    font-size: 10px;
+}
+
+
+
+
+%box {
+        border: 1px solid #000;
+        background-color: green;        
+}
+ 
+.myfirstbox {
+    @extend %box;
+    font-size: 10px;
+}
+ 
+.mysecondbox {
+    @extend .box;
+    font-size: 20px;
+}
+
+
+
