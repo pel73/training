@@ -6,3 +6,44 @@
 
 p {
   color: #4cf; }
+
+#a {
+  color: red;
+  font-size: 1.5em;
+  text-decoration: none; }
+  #a:hover {
+    text-decoration: underline; }
+
+#main {
+  font-family: Georgia;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+#main {
+  color: black; }
+  #main-sidebar {
+    border: 1px solid; }
+  body.firefox #main {
+    line-height: 1.5em; }
+
+#main {
+  font-family: Georgia;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.box, .mybox, .mysecondbox {
+  border: 1px solid #000;
+  background-color: green; }
+
+.mybox {
+  font-size: 10px; }
+
+.myfirstbox {
+  border: 1px solid #000;
+  background-color: green; }
+
+.myfirstbox {
+  font-size: 10px; }
+
+.mysecondbox {
+  font-size: 20px; }
